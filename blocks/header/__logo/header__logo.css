@@ -1,0 +1,8 @@
+.header__logo {
+  margin: 0;
+  content: url(../../../images/header-logo.svg);
+  width: 176px;
+  object-fit: cover;
+  opacity: 100%;
+  transition: opacity .5s ease-in-out;
+}

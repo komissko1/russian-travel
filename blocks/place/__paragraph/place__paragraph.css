@@ -1,0 +1,23 @@
+.place__paragraph {
+  margin: 0;
+  padding-bottom: 26px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+@media screen and (max-width : 1024px) {
+  .place__paragraph {
+    font-size: calc(16px + (18 - 16) * ( (100vw - 768px) / ( 1024 - 768) ));
+    line-height: calc(26px + (26 - 29) * ( (100vw - 768px) / ( 1024 - 768) ));
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+

@@ -1,0 +1,30 @@
+.places {
+  margin: 0 auto;
+  padding-top: 92px;
+  width: calc(100% - 296px);
+}
+
+.places:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width : 1280px) {
+  .places {
+    width: calc(100% - (96px + (296 - 96) * ( (100% - 1024px) / ( 1280 - 1024) )));
+  }
+}
+
+@media screen and (max-width : 1024px) {
+  .places {
+    padding-top: calc(88px + (92 - 88) * ( (100% - 768px) / ( 1024 - 768) ));
+    width: calc(100% - (48px + (96 - 48) * ( (100% - 768px) / ( 1024 - 768) )));
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .places {
+    padding-top: calc(64px + (88 - 64) * ( (100% - 320px) / ( 768 - 320) ));
+    width: calc(100% - (24px + (48 - 24) * ( (100% - 320px) / ( 768 - 320) )));
+  }
+}
+
