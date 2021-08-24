@@ -6,7 +6,7 @@
   color: #AAAAAA;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width: 1024px) {
   .place__url-heading {
     font-size: 12px;
     line-height: 12px;
