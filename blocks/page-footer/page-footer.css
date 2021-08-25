@@ -1,18 +1,19 @@
-.footer {
+.page-footer {
   margin: 0 auto;
   padding: 92px 48px 24px;
+  max-width: 1280px;
   display: flex;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
-  .footer {
+  .page-footer {
     padding-top: calc(88px + (92 - 88) * ( (100% - 768px) / ( 1024 - 768) ));
   }
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
+  .page-footer {
     padding-top: calc(64px + (88 - 64) * ( (100% - 320px) / ( 768 - 320) ));
     flex-direction: column;
     justify-content: flex-start;
@@ -20,7 +21,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .footer {
+  .page-footer {
     padding-top: 64px;
   }
 }

@@ -1,6 +1,7 @@
 .lead {
   width: calc(100% - 296px);
   min-width: 320px;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 56px;
   display: block;

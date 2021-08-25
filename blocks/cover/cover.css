@@ -1,14 +1,21 @@
 .cover {
   width: calc(100vw - 96px);
+  max-width: 100%;
   margin: 92px auto 0;
-  /* padding-top: 92px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-image: url(../../images/cover-trains.jpg);
+  background-position: center;
+  background-size: cover;
   position: relative;
+  display: flex;
 }
 
+.cover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: -1;
+  padding-top: calc(9/16*100%);
+}
 
 @media screen and (max-width: 1280px) {
   .cover {
@@ -18,7 +25,7 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -30,7 +37,6 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    /* padding-top: 0; */
     margin-top: 66px;
   }
 }

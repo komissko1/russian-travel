@@ -1,4 +1,4 @@
-.header__lang-link {
+.page-header__lang-link {
   margin-right: 18px;
   color: #ffffff;
   text-decoration: none;
@@ -6,6 +6,6 @@
   transition: opacity .5s ease-in-out;
 }
 
-.header__lang-link:last-of-type {
+.page-header__lang-link:last-of-type {
   margin-right: 0;
 }
