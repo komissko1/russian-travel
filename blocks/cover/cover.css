@@ -1,31 +1,32 @@
 .cover {
-  width: calc(100vw - 96px);
-  max-width: 100%;
+  width: calc(100% - 96px);
   margin: 92px auto 0;
   background-image: url(../../images/cover-trains.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
+  align-items: stretch;
 }
 
 .cover::after {
   content: "";
   width: 0;
   height: 0;
-  margin-left: -1;
   padding-top: calc(9/16*100%);
 }
 
 @media screen and (max-width: 1280px) {
   .cover {
-    width: calc(100% - ( 96 * ( (100% - 1024px) / ( 1280 - 1024) )));
+    max-width: calc(100% - ( 96 * ( (100% - 1024px) / ( 1280 - 1024) )));
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 100%;
+    width: 100%;
   }
 }
 

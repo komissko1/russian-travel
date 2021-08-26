@@ -14,8 +14,8 @@
   .lead__subtitle {
     font-size: calc(16px + (30 - 16) * ( (100vw - 320px) / ( 768 - 320) ));
     line-height: calc(120% + (125 - 120) * ( (100vw - 320px) / ( 768 - 320) ));
-    width: calc(288px + (640 - 288) * ( (100vw - 320px) / ( 768 - 320) ));
-    padding-top: calc (16px + (32 - 16) * ( (100vw - 320px) / ( 768 - 320) ));
+    width: calc(288px + (640 - 288) * ( (100% - 320px) / ( 768 - 320) ));
+    padding-top: calc (16px + (32 - 16) * ( (100% - 320px) / ( 768 - 320) ));
   }
 }
 

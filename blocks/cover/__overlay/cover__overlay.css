@@ -1,6 +1,17 @@
 .cover__overlay {
   margin: 0 auto;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   width: 100%;
+}
+
+.cover__overlay::after {
+  content: "";
   background: #2A2C2F;
   opacity: .3;
   transition: opacity .5s ease-in-out;
@@ -9,10 +20,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  text-decoration: none;
-  color: #ffffff;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover::after {
   opacity: .8;
 }

@@ -10,7 +10,7 @@
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     font-size: calc(16px + (18 - 16) * ( (100vw - 768px) / ( 1024 - 768) ));
-    line-height: calc(26px + (26 - 29) * ( (100vw - 768px) / ( 1024 - 768) ));
+    line-height: calc(26px + (29 - 26) * ( (100vw - 768px) / ( 1024 - 768) ));
   }
 }
 
