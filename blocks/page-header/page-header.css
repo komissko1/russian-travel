@@ -1,8 +1,9 @@
 .page-header {
-  margin: 0;
+  margin: 0 auto;
   padding: 28px 48px 0;
   box-sizing: border-box;
   width: 100%;
+  max-width: 1280px;
   font-size: 24px;
   line-height: 1.11;
   font-weight: 400;
