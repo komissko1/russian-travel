@@ -10,5 +10,6 @@
   .page-footer__links {
     flex-direction: column;
     margin-bottom: 48px;
+    align-items: flex-start;
   }
 }
