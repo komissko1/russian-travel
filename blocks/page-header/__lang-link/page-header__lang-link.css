@@ -1,6 +1,9 @@
 .page-header__lang-link {
   margin-right: 18px;
   color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
   text-decoration: none;
   opacity: 100%;
   transition: opacity .5s ease-in-out;
@@ -8,4 +11,11 @@
 
 .page-header__lang-link:last-of-type {
   margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .page-header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+}
 }

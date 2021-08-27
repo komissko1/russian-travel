@@ -11,18 +11,11 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
-    max-width: calc(288px + (360 - 288) * ( (100% - 320px) / ( 768 - 320) ));
-    font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 768 - 320) ));
-    line-height: calc(16px + (22 - 16) * ( (100vw - 320px) / ( 768 - 320) ));
+    max-width: calc(288px + (360 - 288) * ( (100% - 320px) / ( 767 - 320) ));
+    font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 767 - 320) ));
+    line-height: calc(16px + (22 - 16) * ( (100vw - 320px) / ( 767 - 320) ));
   }
 }
 
-@media screen and (max-width: 320px) {
-  .cover__subtitle {
-    max-width: 288px;
-    font-size: 14px;
-    line-height: 16px;
-  }
-}

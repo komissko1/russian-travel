@@ -6,31 +6,28 @@
   justify-content: left;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .intro {
-    padding-left: calc(48px + (148 - 48) * ( (100% - 1024px) / ( 1280 - 1024) ));
+    padding-left: calc(48px + (148 - 48) * ( (100% - 1024px) / ( 1279 - 1024) ));
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro {
-    padding-left: calc(24px + (48 - 24) * ( (100% - 768px) / ( 1024 - 768) ));
+    padding-left: calc(24px + (48 - 24) * ( (100% - 768px) / ( 1023 - 768) ));
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro {
     margin: 0 auto;
     padding-top: 88px;
     padding-left: 0;
-    width: calc(100% - (32px + (48 - 32) * ( (100% - 320px) / ( 768 - 320) )));
+    width: calc(100% - (32px + (48 - 32) * ( (100% - 320px) / ( 767 - 320) )));
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    width: 100%;
-    margin: 0 16px;
     padding-top: 64px;
-    padding-left: 0;
   }
 }

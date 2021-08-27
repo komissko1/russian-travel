@@ -17,27 +17,23 @@
   padding-top: calc(9/16*100%);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .cover {
-    max-width: calc(100% - ( 96 * ( (100% - 1024px) / ( 1280 - 1024) )));
+    max-width: calc(100% - ( 96 * ( (100% - 1024px) / ( 1279 - 1024) )));
     width: 100%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .cover {
     width: 100%;
+    margin-top: 90px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover {
-    margin-top: calc(66px + (90 - 66) * ( (100% - 320px) / ( 768 - 320) ));
+    margin-top: calc(66px + (90 - 66) * ( (100% - 320px) / ( 767 - 320) ));
   }
 }
 
-@media screen and (max-width: 320px) {
-  .cover {
-    margin-top: 66px;
-  }
-}

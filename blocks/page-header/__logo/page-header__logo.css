@@ -6,3 +6,9 @@
   opacity: 100%;
   transition: opacity .5s ease-in-out;
 }
+
+@media screen and (max-width: 767px) {
+  .page-header__logo {
+  width: calc(142px + (176 - 142) * ( (100% - 320px) / (767 - 320) ));
+}
+}
