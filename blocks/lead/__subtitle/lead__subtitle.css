@@ -10,11 +10,26 @@
   line-height: 1.2;
 }
 
+@media screen and (max-width: 1279px) {
+  .lead__subtitle {
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__subtitle {
+    margin: 0 64px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .lead__subtitle {
     font-size: calc(16px + (30 - 16) * ( (100vw - 320px) / ( 767 - 320) ));
     line-height: calc(125% + (120 - 125) * ( (100vw - 320px) / ( 767 - 320) ));
-    padding-top: calc (16px + (32 - 16) * ( (100% - 320px) / ( 767 - 320) ));
+    padding-top: calc(16px + (32 - 16) * ( (100% - 320px) / ( 767 - 320) ));
+    padding-bottom: calc(40px + (56 - 40) * ( (100% - 320px) / ( 767 - 320) ));
+    margin-right: calc(16px + (64 - 16) * ( (100% - 320px) / ( 767 - 320) ));
+    margin-left: calc(16px + (64 - 16) * ( (100% - 320px) / ( 767 - 320) ));
   }
 }
 

@@ -16,6 +16,7 @@
     max-width: calc(288px + (360 - 288) * ( (100% - 320px) / ( 767 - 320) ));
     font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 767 - 320) ));
     line-height: calc(16px + (22 - 16) * ( (100vw - 320px) / ( 767 - 320) ));
+    padding-top: calc(16px + (32 - 16) * ( (100vw - 320px) / ( 767 - 320) ));
   }
 }
 
