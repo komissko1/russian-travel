@@ -8,12 +8,6 @@
   line-height: 104%;
 }
 
-@media screen and (max-width: 1023px) {
-  .lead__title {
-    margin: 0 24px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .lead__title {
     font-size: calc(40px + (96 - 40) * ( (100vw - 320px) / ( 768 - 320) ));
